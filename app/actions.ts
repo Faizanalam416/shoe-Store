@@ -304,7 +304,7 @@ export async function checkOut(): Promise<{ url: string }> {
             cart.items.map((item) => ({
                 price_data: {
                     currency: "inr",
-                    unit_amount: (item.offerPrice !== 0 ? item.offerPrice : item.price ) * 100,
+                    unit_amount: (item.offerPrice !== 0 ? item.offerPrice : item.price) * 100,
                     product_data: {
                         name: item.name,
                         images: [item.imageString],
@@ -320,15 +320,21 @@ export async function checkOut(): Promise<{ url: string }> {
         const session = await stripe.checkout.sessions.create({
             mode: "payment",
             line_items: lineItems,
-            success_url: "https://showstore.netlify.app/payment/success",
-            cancel_url: "https://showstore.netlify.app/payment/cancel",
+            success_url:
+                process.env.NODE_ENV === "development"
+                    ? "http://localhost:3000/payment/success"
+                    : "https://showstore.netlify.app/payment/success",
+            cancel_url:
+                process.env.NODE_ENV === "development"
+                    ? "http://localhost:3000/payment/cancel"
+                    : "https://showstore.netlify.app/payment/cancel",
             metadata: {
                 userId: user.id,
             },
         });
 
         if (session.url) {
-            return {url: session.url};
+            return { url: session.url };
         } else {
             throw new Error("Checkout session URL is undefined");
         }

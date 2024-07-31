@@ -31,7 +31,11 @@ export async function GET() {
             });
         }
 
-        return NextResponse.redirect('https://showstore.netlify.app/');
+        return NextResponse.redirect(
+            process.env.NODE_ENV === "development"
+                ? "http://localhost:3000/"
+                : 'https://showstore.netlify.app/'
+        );
     } catch (error) {
         console.error("Error occurred in /api/auth/creation:", error);
         return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
