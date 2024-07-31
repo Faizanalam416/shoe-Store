@@ -29,7 +29,7 @@ export async function GET() {
             });
         }
 
-        return NextResponse.redirect('http://localhost:3000/');
+        return NextResponse.redirect('https://showstore.netlify.app/');
     } catch (error) {
         console.error("Error occurred in /api/auth/creation:", error);
         return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
