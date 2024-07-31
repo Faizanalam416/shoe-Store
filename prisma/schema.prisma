@@ -1,0 +1,149 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String @id @unique
+  email        String @unique
+  firstName    String
+  lastName     String
+  profileImage String
+
+  orders      Order[]
+  // UserDetails UserDetail[]
+  UserDetails UserDetail?
+
+  createdAt DateTime @default(now())
+}
+
+model UserDetail {
+  id          String  @id @default(uuid())
+  phoneNumber String
+  street      String
+  landmark    String?
+  city        String
+  state       String
+  zipCode     String
+  country     String
+
+  // userId String?
+  // User   User?   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId String @unique
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Product {
+  id                String            @id @default(uuid())
+  name              String
+  description       String
+  size              String
+  color             String
+  status            ProductStatus
+  price             Int
+  offerPrice        Int
+  images            String[]
+  category          Category
+  subCategory       SubCategory
+  productCategories ProductCategories
+  isFeatured        Boolean           @default(false)
+
+  createdAt DateTime @default(now())
+}
+
+model Banner {
+  id          String @id @default(uuid())
+  title       String
+  imageString String
+
+  createdAt DateTime @default(now())
+}
+
+model Order {
+  id             String         @id @default(uuid())
+  status         String         @default("pending")
+  amount         Int
+  trackingId     String?
+  deliveryStatus DeliveryStatus
+
+  userId String?
+  User   User?   @relation(fields: [userId], references: [id])
+
+  createdAt  DateTime    @default(now())
+  orderItems OrderItem[] @relation("OrderItems")
+}
+
+model OrderItem {
+  id            String @id @default(uuid())
+  name          String
+  price         Int
+  selectedSize  String
+  selectedColor String
+  quantity      Int
+  imageString   String
+  orderId       String
+  order         Order  @relation("OrderItems", fields: [orderId], references: [id])
+}
+
+enum ProductStatus {
+  draft
+  published
+  archived
+}
+
+enum Category {
+  men
+  women
+  kids
+}
+
+enum SubCategory {
+  shoes
+  sandals
+  bags
+  accessories
+}
+
+enum DeliveryStatus {
+  newOrdered
+  packingItem
+  shipped
+  delivered
+}
+
+enum ProductCategories {
+  casualShoes
+  chappals
+  flipFlops
+  sportShoes
+  DrPadsSandalsJuti
+  flatHeels
+  pencilHeels
+  blockHeels
+  causalSandals
+  handBags
+  collageBags
+  purseOfVariety
+  clutches
+  beltsLeather
+  formalShoes
+  formalShoesLeather
+  loafers
+  sandals
+  belts
+  wallets
+  boys
+  girls
+  infants
+  schools
+}
