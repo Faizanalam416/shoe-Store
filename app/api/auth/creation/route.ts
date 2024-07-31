@@ -34,7 +34,7 @@ export async function GET() {
         return NextResponse.redirect(
             process.env.NODE_ENV === "development"
                 ? "http://localhost:3000/"
-                : 'https://showstore.netlify.app/'
+                : 'https://shoe-store-pied.vercel.app/'
         );
     } catch (error) {
         console.error("Error occurred in /api/auth/creation:", error);

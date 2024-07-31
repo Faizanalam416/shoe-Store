@@ -323,11 +323,11 @@ export async function checkOut(): Promise<{ url: string }> {
             success_url:
                 process.env.NODE_ENV === "development"
                     ? "http://localhost:3000/payment/success"
-                    : "https://showstore.netlify.app/payment/success",
+                    : "https://shoe-store-pied.vercel.app/payment/success",
             cancel_url:
                 process.env.NODE_ENV === "development"
                     ? "http://localhost:3000/payment/cancel"
-                    : "https://showstore.netlify.app/payment/cancel",
+                    : "https://shoe-store-pied.vercel.app/payment/cancel",
             metadata: {
                 userId: user.id,
             },
