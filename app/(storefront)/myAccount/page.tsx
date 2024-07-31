@@ -2,9 +2,11 @@ import { redirect } from "next/navigation";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import { MyAccount } from "@/app/components/storefront/MyAccount";
 import prisma from "@/app/lib/db";
+import { unstable_noStore as noStore } from 'next/cache';
 
 
 export default async function MyAccountRoute() {
+    noStore();
     const { getUser } = getKindeServerSession();
     const user = await getUser();
 

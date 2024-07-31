@@ -8,6 +8,7 @@ import { ShoppingBagButton } from "@/app/components/SubmitButtons";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { Color, Size } from "@/app/components/storefront/SelectSizeColor";
 import React from "react";
+import { unstable_noStore as noStore } from 'next/cache';
 
 async function getData(productId: string) {
     const data = await prisma.product.findUnique({
@@ -43,6 +44,7 @@ export default async function ProductIdRoute({
     params: { id: string };
     searchParams?: { [key: string]: string | string[] | undefined };
 }) {
+    noStore();
     const data = await getData(params.id);
     // Ensure selectedSize is of type string or handle the case when searchParams is undefined
     const selectedSize: string = (

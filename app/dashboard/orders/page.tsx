@@ -26,6 +26,7 @@ import {
 } from "@/components/ui/table";
 import Link from "next/link";
 import CommandSearch from "@/app/components/dashboard/CommandSearch";
+import { unstable_noStore as noStore } from 'next/cache';
 
 async function getData(search: string) {
     const data = await prisma.order.findMany({
@@ -61,6 +62,7 @@ export default async function OrdersPage({
 }: {
     searchParams?: { [key: string]: string | string[] | undefined}
 }) {
+    noStore();
     const search = searchParams?.search || '';
     const data = await getData(search as string);
     return (

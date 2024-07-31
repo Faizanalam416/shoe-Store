@@ -10,8 +10,10 @@ import { Cart } from '@/app/lib/interfaces';
 // import Link from 'next/link';
 import { BagContent } from '@/app/components/storefront/BagContent';
 import prisma from '@/app/lib/db';
+import { unstable_noStore as noStore } from 'next/cache';
 
 export default async function BagRoute() {
+    noStore();
     const { getUser } = getKindeServerSession();
     const user = await getUser();
 

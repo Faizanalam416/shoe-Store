@@ -1,6 +1,7 @@
 import { ViewOrderItem } from "@/app/components/dashboard/ViewOrderItem";
 import prisma from "@/app/lib/db";
 import { notFound } from "next/navigation";
+import { unstable_noStore as noStore } from 'next/cache';
 
 async function getData(orderId: string) {
     const data = await prisma.order.findUnique({
@@ -47,6 +48,7 @@ export default async function OrderItemRoute({
 }: {
     params: { id: string };
 }) {
+    noStore();
     const data = await getData(params.id);
     console.log(data);
 

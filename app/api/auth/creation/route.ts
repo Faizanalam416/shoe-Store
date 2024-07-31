@@ -1,8 +1,10 @@
 import prisma from '@/app/lib/db';
 import { NextResponse } from 'next/server';
 import { getKindeServerSession } from '@kinde-oss/kinde-auth-nextjs/server';
+import { unstable_noStore as noStore } from 'next/cache';
 
 export async function GET() {
+    noStore();
     try {
         const { getUser } = getKindeServerSession();
         const user = await getUser();

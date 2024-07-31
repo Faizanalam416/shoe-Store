@@ -26,6 +26,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import prisma from "@/app/lib/db";
 import Image from "next/image";
+import { unstable_noStore as noStore } from 'next/cache';
 
 async function getData() {
     const data = await prisma.product.findMany({
@@ -38,6 +39,7 @@ async function getData() {
 }
 
 export default async function ProductsRoute() {
+    noStore();
     const data = await getData();
     return (
         <>
