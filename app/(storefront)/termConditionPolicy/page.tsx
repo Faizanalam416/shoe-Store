@@ -9,7 +9,7 @@ export default function TermConditionPolicyRoute() {
                     Last updated: August 01, 2024
                 </p>
                 <p className="my-4 tracking-tight text-justify">
-                    We are New Samaj Store ("Company," "we," "us," "our"), a company
+                    We are New Samaj Store (&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; &quot;our&quot;), a company
                     registered in India at 4FM9+G3R, Chandni Chowk, PHED Colony, Araria,
                     Bihar 854311.
                 </p>
@@ -23,9 +23,9 @@ export default function TermConditionPolicyRoute() {
                     >
                         https://shoe-store-pied.vercel.app
                     </a>{" "}
-                    (the "Site"), as well as any other related products and services that
-                    refer or link to these legal terms (the "Legal Terms") (collectively,
-                    the "Services").
+                    (the &quot;Site&quot;), as well as any other related products and services that
+                    refer or link to these legal terms (the &quot;Legal Terms&quot;) (collectively,
+                    the &quot;Services&quot;).
                 </p>
                 <p className="my-4 tracking-tight text-justify">
                     You can contact us by email at 854311, India. or by mail to 4FM9+G3R,
