@@ -19,7 +19,9 @@ export function Footer() {
                             <p>Araria, Bihar</p>
                             <p>854311</p>
                         </div>
-                        <Button className="w-40">Contact Us</Button>
+                        <Link href="/contact">
+                            <Button className="w-40">Contact Us</Button>
+                        </Link>
                     </div>
                     <div className="grid gap-4 items-center">
                         <ul className="max-w-md space-y-1 text-gray-500 list-none list-outside dark:text-gray-400">

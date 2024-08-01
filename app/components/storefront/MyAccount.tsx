@@ -330,41 +330,6 @@ export function MyAccount({ user }: iAppProps) {
                 </Card>
             </form>
         </div>
-
-
-
-
-
-
-
-
-
-
-        {/* <div>
-            <h1>My Account</h1>
-            <h2>Personal Information</h2>
-            <p>Email: {user.email}</p>
-            <p>First Name: {user.firstName}</p>
-            <p>Last Name: {user.lastName}</p>
-            <p>
-                Profile Image: <img src={user.profileImage} alt="Profile" />
-            </p>
-
-            <h2>User Details</h2>
-            {user.userDetail ? (
-                <div>
-                    <p>Phone Number: {user.userDetail.phoneNumber}</p>
-                    <p>Street: {user.userDetail.street}</p>
-                    <p>Landmark: {user.userDetail.landmark}</p>
-                    <p>City: {user.userDetail.city}</p>
-                    <p>State: {user.userDetail.state}</p>
-                    <p>Zip Code: {user.userDetail.zipCode}</p>
-                    <p>Country: {user.userDetail.country}</p>
-                </div>
-            ) : (
-                <p>No user details available.</p>
-            )}
-        </div> */}
     </>
     )
 }
