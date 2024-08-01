@@ -9,7 +9,7 @@ export default function TermConditionPolicyRoute() {
                     Last updated: August 01, 2024
                 </p>
                 <p className="my-4 tracking-tight text-justify">
-                    We are New Samaj Store (&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; &quot;our&quot;), a company
+                    We are New Samaj Store (&#34;Company,&#34; &#34;we,&#34; &#34;us,&#34; &#34;our&#34;), a company
                     registered in India at 4FM9+G3R, Chandni Chowk, PHED Colony, Araria,
                     Bihar 854311.
                 </p>
@@ -23,9 +23,9 @@ export default function TermConditionPolicyRoute() {
                     >
                         https://shoe-store-pied.vercel.app
                     </a>{" "}
-                    (the &quot;Site&quot;), as well as any other related products and services that
-                    refer or link to these legal terms (the &quot;Legal Terms&quot;) (collectively,
-                    the &quot;Services&quot;).
+                    (the &#34;Site&#34;), as well as any other related products and services that
+                    refer or link to these legal terms (the &#34;Legal Terms&#34;) (collectively,
+                    the &#34;Services&#34;).
                 </p>
                 <p className="my-4 tracking-tight text-justify">
                     You can contact us by email at 854311, India. or by mail to 4FM9+G3R,
@@ -33,7 +33,7 @@ export default function TermConditionPolicyRoute() {
                 </p>
                 <p className="my-4 tracking-tight text-justify">
                     These Legal Terms constitute a legally binding agreement made between
-                    you, whether personally or on behalf of an entity ("you"), and New
+                    you, whether personally or on behalf of an entity (&#34;you&#34;), and New
                     Samaj Store, concerning your access to and use of the Services. You
                     agree that by accessing the Services, you have read, understood, and
                     agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE
@@ -45,8 +45,8 @@ export default function TermConditionPolicyRoute() {
                     the Services from time to time are hereby expressly incorporated
                     herein by reference. We reserve the right, in our sole discretion, to
                     make changes or modifications to these Legal Terms at any time and for
-                    any reason. We will alert you about any changes by updating the "Last
-                    updated" date of these Legal Terms, and you waive any right to receive
+                    any reason. We will alert you about any changes by updating the &#34;Last
+                    updated&#34; date of these Legal Terms, and you waive any right to receive
                     specific notice of each such change. It is your responsibility to
                     periodically review these Legal Terms to stay informed of updates. You
                     will be subject to, and will be deemed to have been made aware of and
@@ -88,8 +88,8 @@ export default function TermConditionPolicyRoute() {
                     We are the owner or the licensee of all intellectual property rights
                     in our Services, including all source code, databases, functionality,
                     software, website designs, audio, video, text, photographs, and
-                    graphics in the Services (collectively, the "Content"), as well as the
-                    trademarks, service marks, and logos contained therein (the "Marks").
+                    graphics in the Services (collectively, the &#34;Content&#34;), as well as the
+                    trademarks, service marks, and logos contained therein (the &#34;Marks&#34;).
                 </p>
                 <p className="my-4 tracking-tight text-justify">
                     Our Content and Marks are protected by copyright and trademark laws
@@ -97,7 +97,7 @@ export default function TermConditionPolicyRoute() {
                     laws) and treaties in the United States and around the world.
                 </p>
                 <p className="my-4 tracking-tight text-justify">
-                    The Content and Marks are provided in or through the Services "AS IS"
+                    The Content and Marks are provided in or through the Services &#34;AS IS&#34;
                     for your personal, non-commercial use only.
                 </p>
                 <h3 className="text-2xl my-6 tracking-tight font-semibold text-justify">
@@ -110,7 +110,7 @@ export default function TermConditionPolicyRoute() {
                         rel="external nofollow noopener"
                         className="text-blue-600 dark:text-blue-500 hover:underline"
                     >
-                        "PROHIBITED ACTIVITIES"
+                        &#34;PROHIBITED ACTIVITIES&#34;
                     </a>{" "}
                     section below, we grant you a non-exclusive, non-transferable,
                     revocable license to:
@@ -164,7 +164,7 @@ export default function TermConditionPolicyRoute() {
                         rel="external nofollow noopener"
                         className="text-blue-600 dark:text-blue-500 hover:underline"
                     >
-                        "PROHIBITED ACTIVITIES"
+                        &#34;PROHIBITED ACTIVITIES&#34;
                     </a>{" "}section
                     carefully prior to using our Services to understand the (a) rights you
                     give us and (b) obligations you have when you post or upload any
@@ -174,7 +174,7 @@ export default function TermConditionPolicyRoute() {
                     <li>
                         <strong>Submissions: </strong>By directly sending us any question,
                         comment, suggestion, idea, feedback, or other information about the
-                        Services ("Submissions"), you agree to assign to us all intellectual
+                        Services (&#34;Submissions&#34;), you agree to assign to us all intellectual
                         property rights in such Submission. You agree that we shall own this
                         Submission and be entitled to its unrestricted use and dissemination
                         for any lawful purpose, commercial or otherwise, without
@@ -188,7 +188,7 @@ export default function TermConditionPolicyRoute() {
                         and materials to us or through the Services, including but not
                         limited to text, writings, video, audio, photographs, music,
                         graphics, comments, reviews, rating suggestions, personal
-                        information, or other material ("Contributions"). Any Submission
+                        information, or other material (&#34;Contributions&#34;). Any Submission
                         that is publicly posted shall also be treated as a Contribution.
                         <p className="my-4 tracking-tight text-justify">
                             You understand that Contributions may be viewable by other users
@@ -234,7 +234,7 @@ export default function TermConditionPolicyRoute() {
                                         rel="external nofollow noopener"
                                         className="text-blue-600 dark:text-blue-500 hover:underline"
                                     >
-                                        "PROHIBITED ACTIVITIES"
+                                        &#34;PROHIBITED ACTIVITIES&#34;
                                     </a>{" "} and will not post, send, publish, upload, or
                                     transmit through the Services any Submission nor post any
                                     Contribution that is illegal, harassing, hateful, harmful,
@@ -290,7 +290,7 @@ export default function TermConditionPolicyRoute() {
                         rel="external nofollow noopener"
                         className="text-blue-600 dark:text-blue-500 hover:underline"
                     >
-                        "COPYRIGHT INFRINGEMENTS"
+                        &#34;COPYRIGHT INFRINGEMENTS&#34;
                     </a>{" "}
                     section below.
                 </p>
@@ -467,9 +467,9 @@ export default function TermConditionPolicyRoute() {
                         Upload or transmit (or attempt to upload or to transmit) any
                         material that acts as a passive or active information collection or
                         transmission mechanism, including without limitation, clear graphics
-                        interchange formats ("gifs"), 1×1 pixels, web bugs, cookies, or
-                        other similar devices (sometimes referred to as "spyware" or
-                        "passive collection mechanisms" or "pcms").
+                        interchange formats (&#34;gifs&#34;), 1×1 pixels, web bugs, cookies, or
+                        other similar devices (sometimes referred to as &#34;spyware&#34; or
+                        &#34;passive collection mechanisms&#34; or &#34;pcms&#34;).
                     </li>
                     <li className="tracking-tight text-justify">
                         Interfere with, disrupt, or create an undue burden on the Services
@@ -532,7 +532,7 @@ export default function TermConditionPolicyRoute() {
                     materials to us or on the Services, including but not limited to text,
                     writings, video, audio, photographs, graphics, comments, suggestions,
                     or personal information or other material (collectively,
-                    "Contributions"). Contributions may be viewable by other users of the
+                    &#34;Contributions&#34;). Contributions may be viewable by other users of the
                     Services and through third-party websites. As such, any Contributions
                     you transmit may be treated as non-confidential and non-proprietary.
                     When you create or make available any Contributions, you thereby
@@ -695,7 +695,7 @@ export default function TermConditionPolicyRoute() {
                 <p className="my-4 tracking-tight text-justify">
                     As part of the functionality of the Services, you may link your
                     account with online accounts you have with third-party service
-                    providers (each such account, a "Third-Party Account") by either: (1)
+                    providers (each such account, a &#34;Third-Party Account&#34;) by either: (1)
                     providing your Third-Party Account login information through the
                     Services; or (2) allowing us to access your Third-Party Account, as is
                     permitted under the applicable terms and conditions that govern your
@@ -708,8 +708,8 @@ export default function TermConditionPolicyRoute() {
                     third-party service provider of the Third-Party Account. By granting
                     us access to any Third-Party Accounts, you understand that (1) we may
                     access, make available, and store (if applicable) any content that you
-                    have provided to and stored in your Third-Party Account (the "Social
-                    Network Content") so that it is available on and through the Services
+                    have provided to and stored in your Third-Party Account (the &#34;Social
+                    Network Content&#34;) so that it is available on and through the Services
                     via your account, including without limitation any friend lists and
                     (2) we may submit to and receive from your Third-Party Account
                     additional information to the extent you are notified when you link
@@ -749,11 +749,11 @@ export default function TermConditionPolicyRoute() {
                 </h2>
                 <p className="my-4 tracking-tight text-justify">
                     The Services may contain (or you may be sent via the Site) links to
-                    other websites ("Third-Party Websites") as well as articles,
+                    other websites (&#34;Third-Party Websites&#34;) as well as articles,
                     photographs, text, graphics, pictures, designs, music, sound, video,
                     information, applications, software, and other content or items
-                    belonging to or originating from third parties ("Third-Party
-                    Content"). Such Third-Party Websites and Third- Party Content are not
+                    belonging to or originating from third parties (&#34;Third-Party
+                    Content&#34;). Such Third-Party Websites and Third- Party Content are not
                     investigated, monitored, or checked for accuracy, appropriateness, or
                     completeness by us, and we are not responsible for any Third-Party
                     Websites accessed through the Services or any Third-Party Content
@@ -829,7 +829,7 @@ export default function TermConditionPolicyRoute() {
                     We respect the intellectual property rights of others. If you believe
                     that any material available on or through the Services infringes upon
                     any copyright you own or control, please immediately notify us using
-                    the contact information provided below (a "Notification"). A copy of
+                    the contact information provided below (a &#34;Notification). A copy of
                     your Notification will be sent to the person who posted or stored the
                     material addressed in the Notification. Please be advised that
                     pursuant to applicable law you may be held liable for damages if you
