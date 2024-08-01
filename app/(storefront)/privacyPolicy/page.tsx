@@ -5,7 +5,7 @@ export default function PrivacyPolicyRoute() {
                 <h1 className="text-5xl my-6 tracking-tight font-semibold text-justify">
                     Privacy Policy
                 </h1>
-                <p className="my-4 tracking-tight text-justify">
+                <p className="my-4 tracking-tight text-justify font-semibold text-gray-400">
                     Last updated: August 01, 2024
                 </p>
                 <p className="my-4 tracking-tight text-justify">
@@ -48,15 +48,15 @@ export default function PrivacyPolicyRoute() {
                         <p className="tracking-tight text-justify">
                             <strong>Affiliate</strong> means an entity that controls, is
                             controlled by or is under common control with a party, where
-                            &quot;control&quot; means ownership of 50% or more of the shares,
+                            &apos;control&apos; means ownership of 50% or more of the shares,
                             equity interest or other securities entitled to vote for election
                             of directors or other managing authority.
                         </p>
                     </li>
                     <li>
                         <p className="tracking-tight text-justify">
-                            <strong>Company</strong> (referred to as either &quot;the
-                            Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot;
+                            <strong>Company</strong> (referred to as either &apos;the
+                            Company&apos;, &apos;We&apos;, &apos;Us&apos; or &apos;Our&apos;
                             in this Agreement) refers to New Samaj Footwear, 4FM9+G3R, Chandni
                             Chowk, PHED Colony, Araria, Bihar 854311.
                         </p>
@@ -201,27 +201,28 @@ export default function PrivacyPolicyRoute() {
                     <li>
                         <p className="tracking-tight text-justify">
                             <strong>Cookies or Browser Cookies.</strong> A cookie is a small
-                            file placed on Your Device. You can instruct Your browser to refuse
-                            all Cookies or to indicate when a Cookie is being sent. However, if
-                            You do not accept Cookies, You may not be able to use some parts of
-                            our Service. Unless you have adjusted Your browser setting so that
-                            it will refuse Cookies, our Service may use Cookies.
+                            file placed on Your Device. You can instruct Your browser to
+                            refuse all Cookies or to indicate when a Cookie is being sent.
+                            However, if You do not accept Cookies, You may not be able to use
+                            some parts of our Service. Unless you have adjusted Your browser
+                            setting so that it will refuse Cookies, our Service may use
+                            Cookies.
                         </p>
                     </li>
                     <li>
                         <p className="tracking-tight text-justify">
                             <strong>Web Beacons.</strong> Certain sections of our Service and
                             our emails may contain small electronic files known as web beacons
-                            (also referred to as clear gifs, pixel tags, and single-pixel gifs)
-                            that permit the Company, for example, to count users who have
-                            visited those pages or opened an email and for other related website
-                            statistics (for example, recording the popularity of a certain
-                            section and verifying system and server integrity).
+                            (also referred to as clear gifs, pixel tags, and single-pixel
+                            gifs) that permit the Company, for example, to count users who
+                            have visited those pages or opened an email and for other related
+                            website statistics (for example, recording the popularity of a
+                            certain section and verifying system and server integrity).
                         </p>
                     </li>
                 </ul>
                 <p className="my-4 tracking-tight text-justify">
-                    Cookies can be &quot;Persistent&quot; or &quot;Session&quot; Cookies.
+                    Cookies can be &apos;Persistent&apos; or &apos;Session&apos; Cookies.
                     Persistent Cookies remain on Your personal computer or mobile device
                     when You go offline, while Session Cookies are deleted as soon as You
                     close Your web browser.
@@ -235,8 +236,12 @@ export default function PrivacyPolicyRoute() {
                         <p className="my-4 tracking-tight text-justify">
                             <strong>Necessary / Essential Cookies</strong>
                         </p>
-                        <p className="my-4 tracking-tight text-justify">Type: Session Cookies</p>
-                        <p className="my-4 tracking-tight text-justify">Administered by: Us</p>
+                        <p className="my-4 tracking-tight text-justify">
+                            Type: Session Cookies
+                        </p>
+                        <p className="my-4 tracking-tight text-justify">
+                            Administered by: Us
+                        </p>
                         <p className="my-4 tracking-tight text-justify">
                             Purpose: These Cookies are essential to provide You with services
                             available through the Website and to enable You to use some of its
@@ -250,8 +255,12 @@ export default function PrivacyPolicyRoute() {
                         <p className="my-4 tracking-tight text-justify">
                             <strong>Cookies Policy / Notice Acceptance Cookies</strong>
                         </p>
-                        <p className="my-4 tracking-tight text-justify">Type: Persistent Cookies</p>
-                        <p className="my-4 tracking-tight text-justify">Administered by: Us</p>
+                        <p className="my-4 tracking-tight text-justify">
+                            Type: Persistent Cookies
+                        </p>
+                        <p className="my-4 tracking-tight text-justify">
+                            Administered by: Us
+                        </p>
                         <p className="my-4 tracking-tight text-justify">
                             Purpose: These Cookies identify if users have accepted the use of
                             cookies on the Website.
@@ -261,8 +270,12 @@ export default function PrivacyPolicyRoute() {
                         <p className="my-4 tracking-tight text-justify">
                             <strong>Functionality Cookies</strong>
                         </p>
-                        <p className="my-4 tracking-tight text-justify">Type: Persistent Cookies</p>
-                        <p className="my-4 tracking-tight text-justify">Administered by: Us</p>
+                        <p className="my-4 tracking-tight text-justify">
+                            Type: Persistent Cookies
+                        </p>
+                        <p className="my-4 tracking-tight text-justify">
+                            Administered by: Us
+                        </p>
                         <p className="my-4 tracking-tight text-justify">
                             Purpose: These Cookies allow us to remember choices You make when
                             You use the Website, such as remembering your login details or
@@ -277,8 +290,12 @@ export default function PrivacyPolicyRoute() {
                     regarding cookies, please visit our Cookies Policy or the Cookies
                     section of our Privacy Policy.
                 </p>
-                <h3 className="text-2xl my-6 tracking-tight font-semibold text-justify">Use of Your Personal Data</h3>
-                <p className="my-4 tracking-tight text-justify">The Company may use Personal Data for the following purposes:</p>
+                <h3 className="text-2xl my-6 tracking-tight font-semibold text-justify">
+                    Use of Your Personal Data
+                </h3>
+                <p className="my-4 tracking-tight text-justify">
+                    The Company may use Personal Data for the following purposes:
+                </p>
                 <ul className="list-disc list-outside ml-10 grid gap-y-4">
                     <li>
                         <p className="tracking-tight text-justify">
@@ -306,11 +323,11 @@ export default function PrivacyPolicyRoute() {
                         <p className="tracking-tight text-justify">
                             <strong>To contact You:</strong> To contact You by email,
                             telephone calls, SMS, or other equivalent forms of electronic
-                            communication, such as a mobile application&apos;s push notifications
-                            regarding updates or informative communications related to the
-                            functionalities, products or contracted services, including the
-                            security updates, when necessary or reasonable for their
-                            implementation.
+                            communication, such as a mobile application&apos;s push
+                            notifications regarding updates or informative communications
+                            related to the functionalities, products or contracted services,
+                            including the security updates, when necessary or reasonable for
+                            their implementation.
                         </p>
                     </li>
                     <li>
@@ -355,26 +372,28 @@ export default function PrivacyPolicyRoute() {
                 <ul className="list-disc list-outside ml-10 grid gap-y-4">
                     <li>
                         <p className="tracking-tight text-justify">
-                            <strong>With Service Providers:</strong> We may share Your personal
-                            information with Service Providers to monitor and analyze the use of
-                            our Service, to contact You.
+                            <strong>With Service Providers:</strong> We may share Your
+                            personal information with Service Providers to monitor and analyze
+                            the use of our Service, to contact You.
                         </p>
                     </li>
                     <li>
                         <p className="tracking-tight text-justify">
                             <strong>For business transfers:</strong> We may share or transfer
-                            Your personal information in connection with, or during negotiations
-                            of, any merger, sale of Company assets, financing, or acquisition of
-                            all or a portion of Our business to another company.
+                            Your personal information in connection with, or during
+                            negotiations of, any merger, sale of Company assets, financing, or
+                            acquisition of all or a portion of Our business to another
+                            company.
                         </p>
                     </li>
                     <li>
                         <p className="tracking-tight text-justify">
-                            <strong>With Affiliates:</strong> We may share Your information with
-                            Our affiliates, in which case we will require those affiliates to
-                            honor this Privacy Policy. Affiliates include Our parent company and
-                            any other subsidiaries, joint venture partners or other companies
-                            that We control or that are under common control with Us.
+                            <strong>With Affiliates:</strong> We may share Your information
+                            with Our affiliates, in which case we will require those
+                            affiliates to honor this Privacy Policy. Affiliates include Our
+                            parent company and any other subsidiaries, joint venture partners
+                            or other companies that We control or that are under common
+                            control with Us.
                         </p>
                     </li>
                     <li>
@@ -399,7 +418,9 @@ export default function PrivacyPolicyRoute() {
                         </p>
                     </li>
                 </ul>
-                <h3 className="text-2xl my-6 tracking-tight font-semibold text-justify">Retention of Your Personal Data</h3>
+                <h3 className="text-2xl my-6 tracking-tight font-semibold text-justify">
+                    Retention of Your Personal Data
+                </h3>
                 <p className="my-4 tracking-tight text-justify">
                     The Company will retain Your Personal Data only for as long as is
                     necessary for the purposes set out in this Privacy Policy. We will
@@ -415,15 +436,17 @@ export default function PrivacyPolicyRoute() {
                     improve the functionality of Our Service, or We are legally obligated
                     to retain this data for longer time periods.
                 </p>
-                <h3 className="text-2xl my-6 tracking-tight font-semibold text-justify">Transfer of Your Personal Data</h3>
+                <h3 className="text-2xl my-6 tracking-tight font-semibold text-justify">
+                    Transfer of Your Personal Data
+                </h3>
                 <p className="my-4 tracking-tight text-justify">
                     Your information, including Personal Data, is processed at the
-                    Company&apos;s operating offices and in any other places where the parties
-                    involved in the processing are located. It means that this information
-                    may be transferred to — and maintained on — computers located outside
-                    of Your state, province, country or other governmental jurisdiction
-                    where the data protection laws may differ than those from Your
-                    jurisdiction.
+                    Company&apos;s operating offices and in any other places where the
+                    parties involved in the processing are located. It means that this
+                    information may be transferred to — and maintained on — computers
+                    located outside of Your state, province, country or other governmental
+                    jurisdiction where the data protection laws may differ than those from
+                    Your jurisdiction.
                 </p>
                 <p className="my-4 tracking-tight text-justify">
                     Your consent to this Privacy Policy followed by Your submission of
@@ -436,7 +459,9 @@ export default function PrivacyPolicyRoute() {
                     organization or a country unless there are adequate controls in place
                     including the security of Your data and other personal information.
                 </p>
-                <h3 className="text-2xl my-6 tracking-tight font-semibold text-justify">Delete Your Personal Data</h3>
+                <h3 className="text-2xl my-6 tracking-tight font-semibold text-justify">
+                    Delete Your Personal Data
+                </h3>
                 <p className="my-4 tracking-tight text-justify">
                     You have the right to delete or request that We assist in deleting the
                     Personal Data that We have collected about You.
@@ -456,28 +481,40 @@ export default function PrivacyPolicyRoute() {
                     Please note, however, that We may need to retain certain information
                     when we have a legal obligation or lawful basis to do so.
                 </p>
-                <h3 className="text-2xl my-6 tracking-tight font-semibold text-justify">Disclosure of Your Personal Data</h3>
-                <h4 className="text-xl my-6 tracking-tight font-semibold text-justify">Business Transactions</h4>
+                <h3 className="text-2xl my-6 tracking-tight font-semibold text-justify">
+                    Disclosure of Your Personal Data
+                </h3>
+                <h4 className="text-xl my-6 tracking-tight font-semibold text-justify">
+                    Business Transactions
+                </h4>
                 <p className="my-4 tracking-tight text-justify">
                     If the Company is involved in a merger, acquisition or asset sale,
                     Your Personal Data may be transferred. We will provide notice before
                     Your Personal Data is transferred and becomes subject to a different
                     Privacy Policy.
                 </p>
-                <h4 className="text-xl my-6 tracking-tight font-semibold text-justify">Law enforcement</h4>
+                <h4 className="text-xl my-6 tracking-tight font-semibold text-justify">
+                    Law enforcement
+                </h4>
                 <p className="my-4 tracking-tight text-justify">
                     Under certain circumstances, the Company may be required to disclose
                     Your Personal Data if required to do so by law or in response to valid
                     requests by public authorities (e.g. a court or a government agency).
                 </p>
-                <h4 className="text-xl my-6 tracking-tight font-semibold text-justify">Other legal requirements</h4>
+                <h4 className="text-xl my-6 tracking-tight font-semibold text-justify">
+                    Other legal requirements
+                </h4>
                 <p className="my-4 tracking-tight text-justify">
                     The Company may disclose Your Personal Data in the good faith belief
                     that such action is necessary to:
                 </p>
                 <ul className="list-disc list-outside ml-10 grid gap-y-2">
-                    <li className="tracking-tight text-justify">Comply with a legal obligation</li>
-                    <li className="tracking-tight text-justify">Protect and defend the rights or property of the Company</li>
+                    <li className="tracking-tight text-justify">
+                        Comply with a legal obligation
+                    </li>
+                    <li className="tracking-tight text-justify">
+                        Protect and defend the rights or property of the Company
+                    </li>
                     <li className="tracking-tight text-justify">
                         Prevent or investigate possible wrongdoing in connection with the
                         Service
@@ -485,9 +522,13 @@ export default function PrivacyPolicyRoute() {
                     <li className="tracking-tight text-justify">
                         Protect the personal safety of Users of the Service or the public
                     </li>
-                    <li className="tracking-tight text-justify">Protect against legal liability</li>
+                    <li className="tracking-tight text-justify">
+                        Protect against legal liability
+                    </li>
                 </ul>
-                <h3 className="text-2xl my-6 tracking-tight font-semibold text-justify">Security of Your Personal Data</h3>
+                <h3 className="text-2xl my-6 tracking-tight font-semibold text-justify">
+                    Security of Your Personal Data
+                </h3>
                 <p className="my-4 tracking-tight text-justify">
                     The security of Your Personal Data is important to Us, but remember
                     that no method of transmission over the Internet, or method of
@@ -495,7 +536,9 @@ export default function PrivacyPolicyRoute() {
                     acceptable means to protect Your Personal Data, We cannot guarantee
                     its absolute security.
                 </p>
-                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">Children&apos;s Privacy</h2>
+                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">
+                    Children&apos;s Privacy
+                </h2>
                 <p className="my-4 tracking-tight text-justify">
                     Our Service does not address anyone under the age of 13. We do not
                     knowingly collect personally identifiable information from anyone
@@ -511,18 +554,22 @@ export default function PrivacyPolicyRoute() {
                     require Your parent&apos;s consent before We collect and use that
                     information.
                 </p>
-                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">Links to Other Websites</h2>
+                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">
+                    Links to Other Websites
+                </h2>
                 <p className="my-4 tracking-tight text-justify">
                     Our Service may contain links to other websites that are not operated
                     by Us. If You click on a third party link, You will be directed to
-                    that third party&apos;s site. We strongly advise You to review the Privacy
-                    Policy of every site You visit.
+                    that third party&apos;s site. We strongly advise You to review the
+                    Privacy Policy of every site You visit.
                 </p>
                 <p className="my-4 tracking-tight text-justify">
                     We have no control over and assume no responsibility for the content,
                     privacy policies or practices of any third party sites or services.
                 </p>
-                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">Changes to this Privacy Policy</h2>
+                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">
+                    Changes to this Privacy Policy
+                </h2>
                 <p className="my-4 tracking-tight text-justify">
                     We may update Our Privacy Policy from time to time. We will notify You
                     of any changes by posting the new Privacy Policy on this page.
@@ -530,14 +577,16 @@ export default function PrivacyPolicyRoute() {
                 <p className="my-4 tracking-tight text-justify">
                     We will let You know via email and/or a prominent notice on Our
                     Service, prior to the change becoming effective and update the
-                    &quot;Last updated&quot; date at the top of this Privacy Policy.
+                    &apos;Last updated&apos; date at the top of this Privacy Policy.
                 </p>
                 <p className="my-4 tracking-tight text-justify">
                     You are advised to review this Privacy Policy periodically for any
                     changes. Changes to this Privacy Policy are effective when they are
                     posted on this page.
                 </p>
-                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">Contact Us</h2>
+                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">
+                    Contact Us
+                </h2>
                 <p className="my-4 tracking-tight text-justify">
                     If you have any questions about this Privacy Policy, You can contact
                     us:

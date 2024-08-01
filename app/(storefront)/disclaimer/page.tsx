@@ -2,22 +2,34 @@ export default function DisclaimerRoute() {
     return (
         <>
             <div className="my-10 mx-4">
-                <h1 className="text-5xl my-6 tracking-tight font-semibold text-justify">Disclaimer</h1>
-                <p className="my-4 tracking-tight text-justify">Last updated: August 01, 2024</p>
-                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">Interpretation and Definitions</h2>
-                <h3 className="text-2xl my-6 tracking-tight font-semibold text-justify">Interpretation</h3>
+                <h1 className="text-5xl my-6 tracking-tight font-semibold text-justify">
+                    Disclaimer
+                </h1>
+                <p className="my-4 tracking-tight text-justify font-semibold text-gray-400">
+                    Last updated: August 01, 2024
+                </p>
+                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">
+                    Interpretation and Definitions
+                </h2>
+                <h3 className="text-2xl my-6 tracking-tight font-semibold text-justify">
+                    Interpretation
+                </h3>
                 <p className="my-4 tracking-tight text-justify">
                     The words of which the initial letter is capitalized have meanings
                     defined under the following conditions. The following definitions
                     shall have the same meaning regardless of whether they appear in
                     singular or in plural.
                 </p>
-                <h3 className="text-2xl my-6 tracking-tight font-semibold text-justify">Definitions</h3>
-                <p className="my-4 tracking-tight text-justify">For the purposes of this Disclaimer:</p>
+                <h3 className="text-2xl my-6 tracking-tight font-semibold text-justify">
+                    Definitions
+                </h3>
+                <p className="my-4 tracking-tight text-justify">
+                    For the purposes of this Disclaimer:
+                </p>
                 <ul className="list-disc list-outside ml-10 grid gap-y-4">
                     <li className="tracking-tight text-justify">
-                        <strong>Company</strong> (referred to as either &quot;the
-                        Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in
+                        <strong>Company</strong> (referred to as either &apos;the
+                        Company&apos;, &apos;We&apos;, &apos;Us&apos; or &apos;Our&apos; in
                         this Disclaimer) refers to New Samaj Footwear, 4FM9+G3R, Chandni
                         Chowk, PHED Colony, Araria, Bihar 854311.
                     </li>
@@ -41,7 +53,9 @@ export default function DisclaimerRoute() {
                         </a>
                     </li>
                 </ul>
-                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">Disclaimer</h2>
+                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">
+                    Disclaimer
+                </h2>
                 <p className="my-4 tracking-tight text-justify">
                     The information contained on the Service is for general information
                     purposes only.
@@ -63,7 +77,9 @@ export default function DisclaimerRoute() {
                     The Company does not warrant that the Service is free of viruses or
                     other harmful components.
                 </p>
-                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">External Links Disclaimer</h2>
+                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">
+                    External Links Disclaimer
+                </h2>
                 <p className="my-4 tracking-tight text-justify">
                     The Service may contain links to external websites that are not
                     provided or maintained by or in any way affiliated with the Company.
@@ -73,7 +89,9 @@ export default function DisclaimerRoute() {
                     relevance, timeliness, or completeness of any information on these
                     external websites.
                 </p>
-                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">Errors and Omissions Disclaimer</h2>
+                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">
+                    Errors and Omissions Disclaimer
+                </h2>
                 <p className="my-4 tracking-tight text-justify">
                     The information given by the Service is for general guidance on
                     matters of interest only. Even if the Company takes every precaution
@@ -86,7 +104,9 @@ export default function DisclaimerRoute() {
                     The Company is not responsible for any errors or omissions, or for the
                     results obtained from the use of this information.
                 </p>
-                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">Fair Use Disclaimer</h2>
+                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">
+                    Fair Use Disclaimer
+                </h2>
                 <p className="my-4 tracking-tight text-justify">
                     The Company may use copyrighted material which has not always been
                     specifically authorized by the copyright owner. The Company is making
@@ -94,7 +114,7 @@ export default function DisclaimerRoute() {
                     teaching, scholarship, or research.
                 </p>
                 <p className="my-4 tracking-tight text-justify">
-                    The Company believes this constitutes a &quot;fair use&quot; of any
+                    The Company believes this constitutes a &apos;fair use&apos; of any
                     such copyrighted material as provided for in section 107 of the United
                     States Copyright law.
                 </p>
@@ -103,7 +123,9 @@ export default function DisclaimerRoute() {
                     purposes that go beyond fair use, You must obtain permission from the
                     copyright owner.
                 </p>
-                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">Views Expressed Disclaimer</h2>
+                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">
+                    Views Expressed Disclaimer
+                </h2>
                 <p className="my-4 tracking-tight text-justify">
                     The Service may contain views and opinions which are those of the
                     authors and do not necessarily reflect the official policy or position
@@ -118,7 +140,9 @@ export default function DisclaimerRoute() {
                     for any comment published by users and reserves the right to delete
                     any comment for any reason whatsoever.
                 </p>
-                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">No Responsibility Disclaimer</h2>
+                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">
+                    No Responsibility Disclaimer
+                </h2>
                 <p className="my-4 tracking-tight text-justify">
                     The information on the Service is provided with the understanding that
                     the Company is not herein engaged in rendering legal, accounting, tax,
@@ -132,9 +156,11 @@ export default function DisclaimerRoute() {
                     arising out of or in connection with your access or use or inability
                     to access or use the Service.
                 </p>
-                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">&quot;Use at Your Own Risk&quot; Disclaimer</h2>
+                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">
+                    &apos;Use at Your Own Risk&apos; Disclaimer
+                </h2>
                 <p className="my-4 tracking-tight text-justify">
-                    All information in the Service is provided &quot;as is&quot;, with no
+                    All information in the Service is provided &apos;as is&apos;, with no
                     guarantee of completeness, accuracy, timeliness or of the results
                     obtained from the use of this information, and without warranty of any
                     kind, express or implied, including, but not limited to warranties of
@@ -146,7 +172,9 @@ export default function DisclaimerRoute() {
                     Service or for any consequential, special or similar damages, even if
                     advised of the possibility of such damages.
                 </p>
-                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">Contact Us</h2>
+                <h2 className="text-3xl my-6 tracking-tight font-semibold text-justify">
+                    Contact Us
+                </h2>
                 <p className="my-4 tracking-tight text-justify">
                     If you have any questions about this Disclaimer, You can contact Us:
                 </p>
