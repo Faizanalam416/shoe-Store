@@ -26,7 +26,7 @@ export default function ContactRoute() {
                 <Card className="my-5">
                     <CardHeader className="grid gap-y-3">
                         <CardTitle className="tracking-tight">Contact Us</CardTitle>
-                        <CardDescription className="tracking-tight grid gap-y-1 text-base">Have any questions or need assistance? We're here to help!<span>Our team is dedicated to providing you with the best support possible.</span></CardDescription>
+                        <CardDescription className="tracking-tight grid gap-y-1 text-base">Have any questions or need assistance? We&apos;re here to help!<span>Our team is dedicated to providing you with the best support possible.</span></CardDescription>
                         <Separator />
                     </CardHeader>
                     <CardContent>
