@@ -387,7 +387,7 @@ export async function updateUserDetails(prevState: any, formData: FormData) {
         return submission.reply();
     }
 
-    const userId = user.id;
+    const userId = user?.id;
 
     const userDetails = {
         phoneNumber: submission.value.phoneNumber,
