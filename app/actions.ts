@@ -379,6 +379,10 @@ export async function updateUserDetails(prevState: any, formData: FormData) {
     const { getUser } = getKindeServerSession();
     const user = await getUser();
 
+    if (!user) {
+        throw new Error("User not found");
+    }
+
     const submission = parseWithZod(formData, {
         schema: addressSchema,
     });
