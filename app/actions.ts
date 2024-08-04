@@ -379,6 +379,10 @@ export async function updateUserDetails(prevState: any, formData: FormData) {
     const { getUser } = getKindeServerSession();
     const user = await getUser();
 
+    if (!user || user.email !== "ds6483202@gmail.com") {
+        return redirect("/");
+    }
+
     const submission = parseWithZod(formData, {
         schema: addressSchema,
     });
@@ -387,43 +391,42 @@ export async function updateUserDetails(prevState: any, formData: FormData) {
         return submission.reply();
     }
 
-    const userId = user?.id;
+    const userId = user.id;
 
-    const userDetails = {
-        phoneNumber: submission.value.phoneNumber,
-        street: submission.value.street,
-        landmark: submission.value.landmark || null,
-        city: submission.value.city,
-        state: submission.value.state,
-        zipCode: submission.value.zipCode,
-        country: submission.value.country,
-    };
+    const existingUserDetail = await prisma.userDetail.findUnique({
+        where: {
+            userId: userId,
+        },
+    });
 
-    try {
-        const existingUserDetail = await prisma.userDetail.findUnique({
+    if (existingUserDetail) {
+        await prisma.userDetail.update({
             where: {
                 userId: userId,
             },
+            data: {
+                phoneNumber: submission.value.phoneNumber,
+                street: submission.value.street,
+                landmark: submission.value.landmark || null,
+                city: submission.value.city,
+                state: submission.value.state,
+                zipCode: submission.value.zipCode,
+                country: submission.value.country,
+            },
         });
-    
-        if (existingUserDetail) {
-            await prisma.userDetail.update({
-                where: {
-                    userId: userId,
-                },
-                data: userDetails,
-            });
-        } else {
-            await prisma.userDetail.create({
-                data: {
-                    ...userDetails,
-                    userId: userId,
-                },
-            });
-        }
-    } catch (error) {
-        console.error("Error updating or creating user details:", error);
-        return redirect("/error");
+    } else {
+        await prisma.userDetail.create({
+            data: {
+                phoneNumber: submission.value.phoneNumber,
+                street: submission.value.street,
+                landmark: submission.value.landmark,
+                city: submission.value.city,
+                state: submission.value.state,
+                zipCode: submission.value.zipCode,
+                country: submission.value.country,
+                userId: userId,
+            },
+        });
     }
 
     redirect("/");
