@@ -379,10 +379,6 @@ export async function updateUserDetails(prevState: any, formData: FormData) {
     const { getUser } = getKindeServerSession();
     const user = await getUser();
 
-    if (!user || user.email !== "ds6483202@gmail.com") {
-        return redirect("/");
-    }
-
     const submission = parseWithZod(formData, {
         schema: addressSchema,
     });
