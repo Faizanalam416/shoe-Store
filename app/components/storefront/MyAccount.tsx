@@ -102,7 +102,7 @@ export function MyAccount({ user }: iAppProps) {
         shouldValidate: "onBlur",
         shouldRevalidate: "onInput",
     });
-
+    
 
     return (<>
         <div className="max-w-5xl mx-auto mt-10 min-h-[60vh]">
@@ -223,7 +223,7 @@ export function MyAccount({ user }: iAppProps) {
                                                                 setValueState(currentValue === valueState ? "" : currentValue);
                                                                 setOpenState(false);
                                                             }}
-                                                            className="w-full"
+                                                            className="w-full cursor-pointer"
                                                         >
                                                             <Check
                                                                 className={cn(
@@ -274,30 +274,30 @@ export function MyAccount({ user }: iAppProps) {
                                     <PopoverContent className="w-full p-0">
                                         <Command className="w-full">
                                             <CommandInput placeholder="Search country..." />
-                                            <CommandEmpty>No country found.</CommandEmpty>
-                                            <CommandGroup>
-                                                <CommandList className="w-full">
+                                            <CommandList className="w-full">
+                                                <CommandEmpty>No country found.</CommandEmpty>
+                                                <CommandGroup heading="Suggestions">
                                                     {countries.map((country) => (
-                                                        <CommandItem
-                                                            key={country.value}
-                                                            value={country.value}
-                                                            onSelect={(currentValue) => {
-                                                                setValueCountry(currentValue === valueCountry ? "" : currentValue);
-                                                                setOpenCountry(false);
-                                                            }}
-                                                            className="w-full"
-                                                        >
-                                                            <Check
-                                                                className={cn(
-                                                                    "mr-2 h-4 w-4",
-                                                                    valueCountry === country.value ? "opacity-100" : "opacity-0"
-                                                                )}
-                                                            />
-                                                            {country.label}
-                                                        </CommandItem>
+                                                            <CommandItem
+                                                                key={country.value}
+                                                                value={country.value}
+                                                                onSelect={(currentValue) => {
+                                                                    setValueCountry(currentValue);
+                                                                    setOpenCountry(false);
+                                                                }}
+                                                                className="w-full"
+                                                            >
+                                                                <Check
+                                                                    className={cn(
+                                                                        "mr-2 h-4 w-4",
+                                                                        valueCountry === country.value ? "opacity-100" : "opacity-0"
+                                                                    )}
+                                                                />
+                                                                {country.label}
+                                                            </CommandItem>
                                                     ))}
-                                                </CommandList>
-                                            </CommandGroup>
+                                                </CommandGroup>
+                                            </CommandList>
                                         </Command>
                                     </PopoverContent>
                                 </Popover>

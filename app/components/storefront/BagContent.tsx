@@ -139,7 +139,7 @@ export function BagContent({ cart, totalPrice, userDetail }: iAppProps) {
                                     </AlertDialogDescription>
                                     {
                                         userDetail ? (
-                                            <div className="grid grid-cols-3">
+                                            <div className="grid grid-cols-3 text-left">
                                                 <p>Mobile Number:</p>
                                                 <p className="col-span-2">{userDetail.phoneNumber}</p>
                                                 <p>Street:</p>
@@ -165,7 +165,7 @@ export function BagContent({ cart, totalPrice, userDetail }: iAppProps) {
                                         Cancel
                                     </AlertDialogCancel>
                                     <Link href="/myAccount">
-                                        <AlertDialogAction>
+                                        <AlertDialogAction className="w-full mt-2 sm:mt-0">
                                             {!userDetail ? "Fill Address" : "Change Address"}
                                         </AlertDialogAction>
                                     </Link>
