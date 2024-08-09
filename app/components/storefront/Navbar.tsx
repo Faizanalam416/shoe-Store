@@ -54,7 +54,7 @@ export async function Navbar() {
             <div className="flex items-center">
                 <Link href="/">
                     <h1 className="text-black font-bold text-xl lg:text-3xl">
-                        Shoe<span className="text-primary">Store</span>
+                        NS<span className="text-primary">F</span>
                     </h1>
                 </Link>
                 <div className="hidden md:flex md:flex-row justify-center md:items-center gap-x-2 ml-8 md:text-sm">

@@ -9,7 +9,7 @@ export function Footer() {
                 <div className="my-10 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-x-28 justify-between text-left">
                     <div className="grid grid-flow-row gap-4 md:col-span-2">
                         <h1 className="text-black font-bold text-xl lg:text-3xl">
-                            Shoe<span className="text-primary">Store</span>
+                            New Samaj <span className="text-primary">Footwear</span>
                         </h1>
                         <p className="tracking-tight text-gray-700 text-justify">Step into style with our premier footwear collection, offering the latest trends and unbeatable comfort. Shop now for a seamless and stylish shopping experience!</p>
                         <div className="grid gap-1">
